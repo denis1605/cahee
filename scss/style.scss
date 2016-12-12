@@ -171,14 +171,22 @@ textarea {
 		text-align: center;
 
 	}
+	&--contact {
+		background: #FFF url(../img/bg6.jpg) no-repeat 50%;
+		background-size:cover;
+		text-align: center;
+		padding: 120px;
+
+	}
 }
 .ba-content {
 	padding: 135px 0 100px 100px;
+	& p{
+		margin-bottom: 15px;
+	}
 
 }
-.ba-content p{
-	margin-bottom: 15px;
-}
+
 .ba-title {
 	font-size: 90px;
 	&--light {
@@ -288,13 +296,13 @@ textarea {
 	margin-left: 20px;
 }
 .ba-blog__title {
-font:700 90px/3.6 $primary-font;
-color: #ffffff;
-margin: 0;
+	font:700 90px/3.6 $primary-font;
+	color: #ffffff;
+	margin: 0;
 }
 .ba-blog__subtitle {
-font:300 17px/1.6 $primary-font;
-color: #ffffff;
+	font:300 17px/1.6 $primary-font;
+	color: #ffffff;
 }
 
 .ba-post--time {
@@ -333,4 +341,59 @@ color: #ffffff;
 }
 .ba-button--blog {
 	margin-top: 30px;
+}
+
+.ba-subscribe--form input {
+
+	margin: 0 20px 14px 0;
+	padding: 17px 20px;
+	font-size: 15px;
+	width: calc(50% - 15px);
+
+
+}
+.ba-footer {
+	background: #262626;
+	text-align: center;
+	padding: 20px;
+}
+.ba-footer__company {
+	font-family: Raleway;
+	color: #b9b9b9;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 25px;
+	text-align: left;
+}
+.ba-footer__author {
+	font-family: Raleway;
+	color:  #b9b9b9;
+	font-size: 15px;
+	font-weight: 300;
+	line-height: 25px;
+	text-align: left;
+	& span {
+		font-family: Raleway;
+		color:  #ff2b58;
+		font-size: 15px;
+		font-weight: 700;
+		line-height: 25px;
+		text-align: left;
+	}
+
+}
+
+
+.ba-contact__form input {
+width: 100%;
+margin-top: 20px;
+padding: 15px;
+
+}
+
+.ba-contact__form textarea {
+width: 100%;
+margin-top: 20px;
+
+
 }
